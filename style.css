@@ -72,3 +72,66 @@ p{
     margin-left: 8px;
     margin-top:30px;
 }
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 80%;
+        height: 600px;
+        padding: 20px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .back, .menu {
+        width: 50px;
+        height: 50px;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 10px;
+    }
+
+    .back {
+        left: 30px; /* Back icon left side per */
+        margin-top: 20px;
+    }
+
+    .menu {
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+
+    .bg {
+        width: 150px;
+        height: 150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    p {
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    .gif {
+        height: 30px;
+    }
+
+    .play {
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
